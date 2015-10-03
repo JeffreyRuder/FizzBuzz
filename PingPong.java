@@ -16,8 +16,8 @@ public class PingPong {
 				System.exit(1);
 			}
 		}
-		
-		for (int ii = 1; ii < args[0]; ii++) {
+
+		for (int ii = 1; ii < Integer.parseInt(args[0]); ii++) {
 			if (ii % 15 == 0) {
 				System.out.println("PingPong");
 			}
